@@ -1,0 +1,29 @@
+{
+  "name": "remote-torrent-client",
+  "version": "0.0.1",
+  "description": "CLI client for remote-torrent-server",
+  "main": "client.js",
+  "dependencies": {
+    "socket.io-client": "^1.2.1",
+    "socket.io-stream": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtskydJ/remote-torrent-client.git"
+  },
+  "keywords": [
+    "server",
+    "torrent",
+    "client"
+  ],
+  "author": "Joseph Dykstra",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/ArtskydJ/remote-torrent-client/issues"
+  },
+  "homepage": "https://github.com/ArtskydJ/remote-torrent-client"
+}
