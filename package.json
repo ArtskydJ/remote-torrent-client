@@ -1,10 +1,14 @@
 {
   "name": "remote-torrent-client",
-  "version": "0.0.2",
-  "bin": {"rtc": "cli.js"},
+  "version": "0.0.4",
+  "bin": {
+    "rtc": "./cli.js"
+  },
+  "preferGlobal": true,
   "description": "CLI client for remote-torrent-server",
   "main": "client.js",
   "dependencies": {
+    "request": "^2.51.0",
     "socket.io-client": "^1.2.1",
     "socket.io-stream": "^0.6.0"
   },
